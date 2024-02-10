@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="weather.css">
+</head>
+
+<body>
+    <!-- <h1>jai shree ram</h1> -->
+    <!-- <h1>hanuman dada ki jay</h1> -->
+    <!-- <img src="" alt=""> -->
+
+    <div class="main">
+
+        <div class="container">
+            <div class="nav">
+                <!-- <h1>jai shree ram</h1> -->
+                <h1>Weather</h1>
+                <div class="srch">
+                    <input type="text" class="inp" placeholder="Search Location. . .">
+                    <i class="fa-solid fa-magnifying-glass sbtn"></i>
+                </div>
+            </div>
+
+            <div class="info">
+
+                <div class="left">
+                    <div class="left1">
+                        <div class="location">
+                            <h2 class="lc">Location</h2>
+                            <h4 class="temp">Temp(℃)</h4>
+                        </div>
+                        <div class="atm">
+                            <img src="weather/earth.jpg" class="atmimg">
+                        </div>
+                    </div>
+                    <div class="left2">
+                        <div class="airhead">
+                            <h5>AIR CONDITION</h5>
+                            <button class="airbtn">See more</button>
+                        </div>
+                        <div class="airinfo">
+                            <div class="airrow1">
+                                <div class="airinfo1 cair1">
+                                    <h4><i class="fa-solid fa-lungs fa-beat-fade"></i>Humidity</h4>
+                                    <h2 id="airh">%</h2>
+                                </div>
+                                <div class="airinfo2 cair1">
+                                    <h4><i class="fa-solid fa-fan fa-spin"></i>Wind Degree</h4>
+                                    <h2 id="aird">Degree(º)</h2>
+                                </div>
+                            </div>
+                            <div class="airrow2">
+                                <div class="airinfo3 cair1">
+                                    <h4><i class="fa-solid fa-wind fa-fade"></i></i>Wind Speed</h4>
+                                    <h2 id="airw">Km/hr</h2>
+                                </div>
+                                <div class="airinfo4 cair1">
+                                    <h4><i class="fa-solid fa-gauge fa-fade"></i>Pressure</h4>
+                                    <h2 id="airp">hPa</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <div class="forecast">
+                        <h5>5-DAYS FORECAST</h5>
+                        <h5>Temp &nbsp;&nbsp;|&nbsp;&nbsp; Wind &nbsp;&nbsp;|&nbsp;&nbsp; Humidity &nbsp;&nbsp;|&nbsp;&nbsp; Date </h5>
+                        <div class="days">
+                            <div class="cast1  line">
+                                <h5 id="tpr"></h5>
+                                <h5 id="wind"></h5>
+                                <h5 id="hmd"></h5>
+                                <h5 id="date"></h5>
+                            </div>
+                            <hr>
+                            <div class="cast2  line">
+                                <h5 id="tpr"></h5>
+                                <h5 id="wind"></h5>
+                                <h5 id="hmd"></h5>
+                                <h5 id="date"></h5>
+                            </div>
+                            <hr>
+                            <div class="cast3  line">
+                                <h5 id="tpr"></h5>
+                                <h5 id="wind"></h5>
+                                <h5 id="hmd"></h5>
+                                <h5 id="date"></h5>
+                            </div>
+                            <hr>
+                            <div class="cast4  line">
+                                <h5 id="tpr"></h5>
+                                <h5 id="wind"></h5>
+                                <h5 id="hmd"></h5>
+                                <h5 id="date"></h5>
+                            </div>
+                            <hr>
+                            <div class="cast5  line">
+                                <h5 id="tpr"></h5>
+                                <h5 id="wind"></h5>
+                                <h5 id="hmd"></h5>
+                                <h5 id="date"></h5>
+                            </div>           
+                            <hr>  
+                            <div class="cast6  line">
+                                <h5 id="tpr"></h5>
+                                <h5 id="wind"></h5>
+                                <h5 id="hmd"></h5>
+                                <h5 id="date"></h5>
+                            </div>             
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="weather.js"></script>
+</body>
+
+</html>
