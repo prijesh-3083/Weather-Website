@@ -1,7 +1,7 @@
 const cityInp = document.querySelector(".inp");
 const srchBtn = document.querySelector(".sbtn");
 const castAllDiv = document.querySelector(".line");
-const apiKey = "7404a3d843a3fc0e5fc7d41150488ff8";
+const apiKey = "";
 
 const printDtl = (weatherItem) => {
     return `<div class="line">
